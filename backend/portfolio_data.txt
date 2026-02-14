@@ -1,0 +1,28 @@
+Name: Uttam Maurya
+Education: B.Tech in Computer Science Engineering
+
+Skills:
+- Python
+- Machine Learning
+- Deep Learning
+- Data Structures & Algorithms
+- Flask
+- OpenCV
+
+Projects:
+
+1. AI-Driven Threat Detection System
+   - Built using Machine Learning
+   - Detects anomalies in network traffic
+   - Uses Scikit-learn and Python
+
+2. Object Detection System
+   - Built using YOLO and OpenCV
+   - Detects real-time objects using Deep Learning
+
+Hackathons:
+- Participated in IIT-level hackathons
+- Interested in DRDO and ISRO competitions
+
+Career Goal:
+- Want to work as Scientist/Engineer at ISRO
