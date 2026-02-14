@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Uttam Maurya | AI Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+    <div class="logo">UM.</div>
+    <ul>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+    <p class="tag">&gt; DATA SCIENCE & AI ENTHUSIAST</p>
+    <h1>Hi, I'm <span>Uttam Maurya</span></h1>
+    <p class="subtitle">
+        Passionate about building intelligent systems with Python, Machine Learning, and AI.
+        Turning data into actionable insights and secure solutions.
+    </p>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+    <h2>Technical Skills</h2>
+    <div class="card-container">
+        <div class="card">
+            <h3>Languages</h3>
+            <p>Python, C, C++</p>
+        </div>
+
+        <div class="card">
+            <h3>AI / ML</h3>
+            <p>XGBoost, KNN, CNN, Decision Trees, Scikit-learn</p>
+        </div>
+
+        <div class="card">
+            <h3>Tools & Platforms</h3>
+            <p>VS Code, GitHub, Docker, Linux, MongoDB Atlas</p>
+        </div>
+
+        <div class="card">
+            <h3>Domains</h3>
+            <p>Data Science, Machine Learning, Cyber Security, Automation</p>
+        </div>
+    </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+    <h2>Projects</h2>
+
+    <div class="project-card">
+        <h3>AI-Powered Phishing Detection & Mitigation</h3>
+        <p class="tech">Python | Flask | XGBoost | KNN | Decision Tree</p>
+        <ul>
+            <li>Built phishing URL detection model using ensemble learning.</li>
+            <li>Implemented feature extraction and URL analysis pipeline.</li>
+            <li>Integrated automated mitigation workflow with Flask backend.</li>
+        </ul>
+    </div>
+
+    <div class="project-card">
+        <h3>CareSync – Smart Hospital Appointment System</h3>
+        <p class="tech">Python | Flask | CNN | SQLite3</p>
+        <ul>
+            <li>Developed CNN-based face recognition system.</li>
+            <li>Integrated Flask backend with automation features.</li>
+            <li>Built full hospital queue workflow.</li>
+        </ul>
+    </div>
+</section>
+
+<!-- CERTIFICATIONS -->
+<section id="certifications">
+    <h2>Certifications & Achievements</h2>
+
+    <div class="card-container">
+        <div class="card">
+            <h3>Certifications</h3>
+            <p>Machine Learning – Udemy</p>
+            <p>DBMS – Infosys Springboard</p>
+            <p>HTML, CSS – Infosys Springboard</p>
+        </div>
+
+        <div class="card">
+            <h3>Achievements</h3>
+            <p>IIT Kanpur C3iHub – Cyber Security Hackathon</p>
+            <small>February 2025</small>
+        </div>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+    <h2>Get In Touch</h2>
+    <p>uttammaurya@gmail.com</p>
+    <p>+91-9918269111</p>
+</section>
+
+<footer>
+    <p>© 2025 Uttam Maurya. Built with passion for data science.</p>
+</footer>
+
+<!-- FLOATING CHATBOT -->
+<div class="chat-container" id="chatContainer">
+    <div class="chat-header">
+        <h4>AI Assistant</h4>
+        <button onclick="toggleChat()">✖</button>
+    </div>
+    <div id="chat-box" class="chat-box"></div>
+    <div class="input-area">
+        <input type="text" id="message" placeholder="Ask about my portfolio..." />
+        <button onclick="sendMessage()">Send</button>
+    </div>
+</div>
+
+<button class="chat-toggle" onclick="toggleChat()">💬</button>
+
+<script src="script.js"></script>
+</body>
+</html>
